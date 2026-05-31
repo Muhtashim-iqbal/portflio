@@ -1,0 +1,768 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="Muhtashim Iqbal Ahmed K — Data Analyst specializing in Power BI, Tableau, SQL, and Python. Portfolio of analytics projects and business intelligence solutions." />
+  <meta name="author" content="Muhtashim Iqbal Ahmed K" />
+
+  <meta name="robots" content="index, follow" />
+  <meta property="og:url" content="https://yourdomain.com" />
+  <meta property="og:image" content="assets/images/blinkit.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@yourhandle" />
+  <meta name="twitter:title" content="Muhtashim Iqbal Ahmed K — Data Analyst" />
+  <meta name="twitter:description" content="Data Analyst | Power BI · Tableau · SQL · Python" />
+  <meta name="twitter:image" content="assets/images/blinkit.png" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Muhtashim Iqbal Ahmed K — Data Analyst" />
+  <meta property="og:description" content="Data Analyst | Power BI · Tableau · SQL · Python" />
+  <meta property="og:type" content="website" />
+
+  <title>Muhtashim Iqbal Ahmed K — Data Analyst</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Outfit:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap"
+    rel="stylesheet" />
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- ════════════════════════════════════════
+       NAVIGATION
+  ════════════════════════════════════════ -->
+  <nav id="navbar" role="navigation" aria-label="Primary navigation">
+    <a href="#hero" class="nav-brand">Muhtashim<span class="dot">.</span></a>
+
+    <ul class="nav-menu" role="list">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#timeline">Experience</a></li>
+      <li><a href="#showcase">Dashboards</a></li>
+      <li><button id="themeToggle" class="theme-toggle" aria-label="Toggle Light/Dark Mode"><i
+            class="fa fa-sun"></i></button></li>
+      <li><a href="#contact" class="nav-hire">Hire Me</a></li>
+    </ul>
+
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </nav>
+
+  <!-- Mobile nav drawer -->
+  <div class="nav-drawer" id="navDrawer" role="menu">
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#timeline">Experience</a>
+    <a href="#showcase">Dashboards</a>
+    <a href="#contact">Contact</a>
+    <button id="mobileThemeToggle" class="mobile-theme-toggle"><i class="fa fa-sun"></i> Toggle Theme</button>
+  </div>
+
+
+  <!-- ════════════════════════════════════════
+       HERO
+  ════════════════════════════════════════ -->
+  <section id="hero">
+    <div class="container">
+      <div class="hero-inner">
+
+        <!-- Left: content -->
+        <div>
+          <div class="hero-badge reveal">
+            <span class="hero-badge-dot"></span>
+            Available for Opportunities
+          </div>
+
+          <h1 class="hero-name reveal reveal-delay-1">
+            Muhtashim
+            <span class="line2">Iqbal Ahmed</span>
+          </h1>
+
+          <p class="hero-role reveal reveal-delay-2">Data Analyst &amp; BI Developer</p>
+
+          <p class="hero-description reveal reveal-delay-3">
+            I transform complex, raw datasets into strategic intelligence. Specializing in Power BI, Tableau, SQL, and
+            Python, I architect robust data pipelines and interactive business intelligence dashboards that drive
+            measurable growth and empower executive decision-making.
+          </p>
+
+          <div class="hero-actions reveal reveal-delay-4">
+            <a href="#projects" class="btn btn-primary">
+              <i class="fa fa-chart-bar" aria-hidden="true"></i>
+              View Projects
+            </a>
+            <a href="assets/resume/resume_3.pdf" class="btn btn-ghost" target="_blank"
+              download="Muhtashim_Iqbal_Resume.pdf">
+              <i class="fa fa-download" aria-hidden="true"></i>
+              Download CV
+            </a>
+          </div>
+
+          <!-- Metrics -->
+          <div class="hero-metrics reveal">
+            <div>
+              <div class="hero-metric-value" data-count="2" data-suffix="+" data-decimals="0">2+</div>
+              <div class="hero-metric-label">Analytics Projects</div>
+            </div>
+            <div>
+              <div class="hero-metric-value" data-count="5" data-suffix="+" data-decimals="0">5+</div>
+              <div class="hero-metric-label">Tools Mastered</div>
+            </div>
+            <div>
+              <div class="hero-metric-value" data-count="8.0" data-decimals="1">8.0</div>
+              <div class="hero-metric-label">B.Tech CGPA</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right: sidebar cards -->
+        <div class="hero-sidebar" aria-hidden="true">
+          <div class="sidebar-card">
+            <div class="sidebar-card-label">Primary Tool</div>
+            <div class="sidebar-card-value">Power BI</div>
+            <div class="sidebar-card-sub">DAX · Data Modeling · Power Query</div>
+          </div>
+          <div class="sidebar-card">
+            <div class="sidebar-card-label">Visualization</div>
+            <div class="sidebar-card-value">Tableau</div>
+            <div class="sidebar-card-sub">Calculated Fields · Interactive Dashboards</div>
+          </div>
+          <div class="sidebar-card">
+            <div class="sidebar-card-label">Location</div>
+            <div class="sidebar-card-value" style="font-size:1.35rem;">Ambur, TN</div>
+            <div class="sidebar-card-sub">India · Open to Remote &amp; On-site</div>
+          </div>
+        </div>
+
+      </div><!-- /hero-inner -->
+    </div>
+
+    <!-- Scroll indicator -->
+    <div class="scroll-indicator" aria-hidden="true">Scroll</div>
+  </section>
+
+
+  <!-- ════════════════════════════════════════
+       ABOUT
+  ════════════════════════════════════════ -->
+  <section id="about" class="bg-tinted">
+    <div class="container">
+
+      <div class="reveal">
+        <p class="section-eyebrow">Who I Am</p>
+        <h2 class="section-title">Built on <em>Data</em>,<br>Driven by Insight</h2>
+        <div class="section-rule"></div>
+      </div>
+
+      <div class="about-grid">
+
+        <div class="about-body reveal">
+          <p class="about-lead">
+            "I uncover the stories hidden in data to drive impactful business strategy."
+          </p>
+          <p>
+            I am <strong>Muhtashim Iqbal Ahmed K</strong>, a detail-oriented Data Analyst based in Ambur, Tamil Nadu. I
+            specialize in the complete analytics lifecycle—architecting robust data pipelines, engineering complex
+            transformations, and deploying interactive BI solutions that convert raw metrics into actionable KPIs.
+          </p>
+          <p>
+            During my tenure at <strong>Novitech Private Limited</strong>, I operated directly on production-grade
+            datasets, collaborating with cross-functional teams to engineer high-impact Power BI and Excel dashboards.
+            By automating data flows and optimizing reporting cycles, I enabled management-level stakeholders to make
+            rapid, data-backed strategic decisions.
+          </p>
+          <p>
+            My technical toolkit is anchored in <strong>Power BI (DAX, Data Modeling), Tableau, advanced SQL, and Python
+              (Pandas)</strong>. I approach every business problem with a dual focus: technical rigor to ensure
+            uncompromising accuracy, and commercial acumen to guarantee that insights are genuinely actionable and
+            aligned with strategic objectives.
+          </p>
+          <p>
+            I am driven to step into dynamic analytical roles where I can leverage my expertise in data visualization
+            and pipeline optimization to uncover market opportunities and deliver a measurable competitive edge.
+          </p>
+        </div>
+
+        <div class="about-info reveal reveal-delay-2">
+          <div class="info-row">
+            <div class="info-icon"><i class="fa fa-map-marker-alt" aria-hidden="true"></i></div>
+            <div>
+              <div class="info-label">Location</div>
+              <div class="info-value">Ambur, Tamil Nadu, India</div>
+            </div>
+          </div>
+          <div class="info-row">
+            <div class="info-icon"><i class="fa fa-envelope" aria-hidden="true"></i></div>
+            <div>
+              <div class="info-label">Email</div>
+              <div class="info-value">muhtashimiqbal005@gmail.com</div>
+            </div>
+          </div>
+          <div class="info-row">
+            <div class="info-icon"><i class="fa fa-phone" aria-hidden="true"></i></div>
+            <div>
+              <div class="info-label">Phone</div>
+              <div class="info-value">+91-9487890945</div>
+            </div>
+          </div>
+          <div class="info-row">
+            <div class="info-icon"><i class="fa fa-graduation-cap" aria-hidden="true"></i></div>
+            <div>
+              <div class="info-label">Education</div>
+              <div class="info-value">B.Tech — Information Technology CGPA 8.0</div>
+            </div>
+          </div>
+          <div class="info-row">
+            <div class="info-icon"><i class="fa fa-briefcase" aria-hidden="true"></i></div>
+            <div>
+              <div class="info-label">Experience</div>
+              <div class="info-value">Data Analytics Intern · Novitech Pvt. Ltd.</div>
+            </div>
+          </div>
+          <div class="info-row">
+            <div class="info-icon"><i class="fa fa-language" aria-hidden="true"></i></div>
+            <div>
+              <div class="info-label">Languages</div>
+              <div class="info-value">English &middot; Tamil</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ════════════════════════════════════════
+       SKILLS
+  ════════════════════════════════════════ -->
+  <section id="skills">
+    <div class="container">
+
+      <div class="reveal">
+        <p class="section-eyebrow">Technical Proficiency</p>
+        <h2 class="section-title">Skills &amp; <em>Expertise</em></h2>
+        <div class="section-rule"></div>
+      </div>
+
+      <div class="skills-grid">
+
+        <!-- Data Analysis -->
+        <div class="skill-panel reveal">
+          <div class="skill-panel-header">
+            <div class="skill-panel-icon"><i class="fa fa-table" aria-hidden="true"></i></div>
+            <div>
+              <div class="skill-panel-title">Data Analysis</div>
+              <div class="skill-panel-subtitle">Query · Transform · Report</div>
+            </div>
+          </div>
+          <div class="skill-items">
+            <div class="skill-item">
+              <div class="skill-meta">
+                <span class="skill-name">MS Excel (Pivot, VLOOKUP / XLOOKUP)</span>
+                <span class="skill-pct">88%</span>
+              </div>
+              <div class="skill-track">
+                <div class="skill-fill" style="--w:0.88" data-width="0.88"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-meta">
+                <span class="skill-name">SQL (Joins, Subqueries, Aggregations)</span>
+                <span class="skill-pct">80%</span>
+              </div>
+              <div class="skill-track">
+                <div class="skill-fill" style="--w:0.80" data-width="0.80"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-meta">
+                <span class="skill-name">Python · Pandas (Data Wrangling)</span>
+                <span class="skill-pct">60%</span>
+              </div>
+              <div class="skill-track">
+                <div class="skill-fill" style="--w:0.60" data-width="0.60"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-meta">
+                <span class="skill-name">Data Cleaning &amp; KPI Reporting</span>
+                <span class="skill-pct">85%</span>
+              </div>
+              <div class="skill-track">
+                <div class="skill-fill" style="--w:0.85" data-width="0.85"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Visualization -->
+        <div class="skill-panel reveal reveal-delay-1">
+          <div class="skill-panel-header">
+            <div class="skill-panel-icon"><i class="fa fa-chart-pie" aria-hidden="true"></i></div>
+            <div>
+              <div class="skill-panel-title">Visualization &amp; BI</div>
+              <div class="skill-panel-subtitle">Dashboard · Storytelling · Insight</div>
+            </div>
+          </div>
+          <div class="skill-items">
+            <div class="skill-item">
+              <div class="skill-meta">
+                <span class="skill-name">Power BI (DAX, Data Modeling)</span>
+                <span class="skill-pct">85%</span>
+              </div>
+              <div class="skill-track">
+                <div class="skill-fill" style="--w:0.85" data-width="0.85"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-meta">
+                <span class="skill-name">Power Query (ETL &amp; Transformation)</span>
+                <span class="skill-pct">80%</span>
+              </div>
+              <div class="skill-track">
+                <div class="skill-fill" style="--w:0.80" data-width="0.80"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-meta">
+                <span class="skill-name">Tableau (Dashboards, Calculated Fields)</span>
+                <span class="skill-pct">78%</span>
+              </div>
+              <div class="skill-track">
+                <div class="skill-fill" style="--w:0.78" data-width="0.78"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-meta">
+                <span class="skill-name">Interactive Dashboard Design</span>
+                <span class="skill-pct">82%</span>
+              </div>
+              <div class="skill-track">
+                <div class="skill-fill" style="--w:0.82" data-width="0.82"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tools -->
+        <div class="skill-panel reveal reveal-delay-2">
+          <div class="skill-panel-header">
+            <div class="skill-panel-icon"><i class="fa fa-layer-group" aria-hidden="true"></i></div>
+            <div>
+              <div class="skill-panel-title">Tools &amp; Platforms</div>
+              <div class="skill-panel-subtitle">Workflow · Dev · Collaboration</div>
+            </div>
+          </div>
+          <div class="skill-items">
+            <div class="skill-item">
+              <div class="skill-meta">
+                <span class="skill-name">VS Code / Google Colab</span>
+                <span class="skill-pct">70%</span>
+              </div>
+              <div class="skill-track">
+                <div class="skill-fill" style="--w:0.70" data-width="0.70"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-meta">
+                <span class="skill-name">Jupyter Notebook</span>
+                <span class="skill-pct">65%</span>
+              </div>
+              <div class="skill-track">
+                <div class="skill-fill" style="--w:0.65" data-width="0.65"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-meta">
+                <span class="skill-name">GitHub (Version Control)</span>
+                <span class="skill-pct">60%</span>
+              </div>
+              <div class="skill-track">
+                <div class="skill-fill" style="--w:0.60" data-width="0.60"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-meta">
+                <span class="skill-name">BI Reporting &amp; Stakeholder Comms</span>
+                <span class="skill-pct">82%</span>
+              </div>
+              <div class="skill-track">
+                <div class="skill-fill" style="--w:0.82" data-width="0.82"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ════════════════════════════════════════
+       PROJECTS
+  ════════════════════════════════════════ -->
+  <section id="projects" class="bg-tinted">
+    <div class="container">
+
+      <div class="reveal">
+        <p class="section-eyebrow">Featured Work</p>
+        <h2 class="section-title">Analytics <em>Projects</em></h2>
+        <div class="section-rule"></div>
+      </div>
+
+      <div class="projects-grid">
+
+        <!-- Project 1: Blinkit -->
+        <article class="project-card reveal">
+          <div class="project-visual">
+            <img src="assets/images/blinkit.png" alt="Blinkit Sales Dashboard built in Power BI" class="project-img">
+            <span class="project-type-badge">Power BI</span>
+          </div>
+          <div class="project-body">
+            <div class="project-tags">
+              <span class="tag">Power BI</span>
+              <span class="tag">DAX</span>
+              <span class="tag">Data Modeling</span>
+              <span class="tag">Power Query</span>
+            </div>
+            <h3 class="project-title">Blinkit Sales &amp; Revenue Analytics</h3>
+
+            <div class="project-case-study">
+              <div class="case-section">
+                <h4><i class="fa fa-bullseye"></i> Problem Statement</h4>
+                <p>Blinkit lacked a unified, real-time view of regional revenue performance, profit margins, and
+                  granular product-level trends, hindering agile merchandising and strategic expansion decisions.</p>
+              </div>
+              <div class="case-section">
+                <h4><i class="fa fa-lightbulb"></i> Approach</h4>
+                <p>Engineered a centralized data model linking disparate sales streams. Developed dynamic DAX measures
+                  (Total Sales, Profit %, AOV) and integrated interactive drill-down filters for city, category, and
+                  timeframes.</p>
+              </div>
+              <div class="case-section">
+                <h4><i class="fa fa-chart-line"></i> Business Impact</h4>
+                <p>Empowered regional managers to rapidly identify top-performing SKUs and isolate underperforming
+                  market segments, facilitating data-driven inventory and marketing optimizations.</p>
+              </div>
+            </div>
+
+            <a href="https://github.com/Muhtashim-iqbal/blinkit-dashboard" class="proj-link" target="_blank"
+              rel="noopener noreferrer">
+              <i class="fab fa-github"></i> Source Code
+            </a>
+          </div>
+        </article>
+
+        <!-- Project 2: HR Analytics -->
+        <article class="project-card reveal reveal-delay-1">
+          <div class="project-visual">
+            <img src="assets/images/hr.png" alt="HR Analytics Dashboard built in Tableau" class="project-img">
+            <span class="project-type-badge">Tableau</span>
+          </div>
+          <div class="project-body">
+            <div class="project-tags">
+              <span class="tag">Tableau</span>
+              <span class="tag">Calculated Fields</span>
+              <span class="tag">Data Visualization</span>
+              <span class="tag">HR Analytics</span>
+            </div>
+            <h3 class="project-title">Enterprise HR Workforce Dynamics</h3>
+
+            <div class="project-case-study">
+              <div class="case-section">
+                <h4><i class="fa fa-bullseye"></i> Problem Statement</h4>
+                <p>HR leadership lacked granular visibility into workforce dynamics and needed to understand the drivers
+                  behind their 16.12% attrition rate across different departments, age groups, and job roles to
+                  proactively retain talent.</p>
+              </div>
+              <div class="case-section">
+                <h4><i class="fa fa-lightbulb"></i> Approach</h4>
+                <p>Built a comprehensive dashboard analyzing a workforce of 1,470 employees. Engineered visualizations
+                  for department-wise attrition, job satisfaction cross-tabulations, and demographic breakdowns (age and
+                  gender) to uncover retention risks.</p>
+              </div>
+              <div class="case-section">
+                <h4><i class="fa fa-chart-line"></i> Business Impact</h4>
+                <p>Surfaced critical insights—such as the R&D department accounting for the highest attrition volume
+                  (133 employees) and the 25-34 age group being the most vulnerable. This enabled HR to deploy targeted
+                  retention strategies for at-risk segments.</p>
+              </div>
+            </div>
+
+            <a href="https://github.com/Muhtashim-iqbal/hr-analytics-dashboard" class="proj-link" target="_blank"
+              rel="noopener noreferrer">
+              <i class="fab fa-github"></i> Source Code
+            </a>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ════════════════════════════════════════
+       EXPERIENCE & EDUCATION
+  ════════════════════════════════════════ -->
+  <section id="timeline">
+    <div class="container">
+
+      <div class="reveal">
+        <p class="section-eyebrow">Background</p>
+        <h2 class="section-title">Experience &amp; <em>Education</em></h2>
+        <div class="section-rule"></div>
+      </div>
+
+      <div class="timeline-two-col">
+
+        <!-- Experience -->
+        <div class="reveal">
+          <div class="tl-col-head">
+            <i class="fa fa-briefcase" aria-hidden="true"></i>
+            Professional Experience
+          </div>
+          <div class="timeline">
+            <div class="tl-item">
+              <div class="tl-date">Internship &middot; Novitech Private Limited</div>
+              <div class="tl-role">Data Analytics Intern</div>
+              <div class="tl-org">Novitech Private Limited</div>
+              <div class="tl-points">
+                <div class="tl-point">
+                  <i class="fa fa-circle" aria-hidden="true"></i>
+                  Cleaned and transformed raw datasets to ensure data integrity and readiness for reporting workflows
+                </div>
+                <div class="tl-point">
+                  <i class="fa fa-circle" aria-hidden="true"></i>
+                  Assisted in developing business dashboards using Power BI and Microsoft Excel for cross-functional
+                  teams
+                </div>
+                <div class="tl-point">
+                  <i class="fa fa-circle" aria-hidden="true"></i>
+                  Generated KPI reports that directly supported management-level business decision-making
+                </div>
+                <div class="tl-point">
+                  <i class="fa fa-circle" aria-hidden="true"></i>
+                  Gained hands-on exposure to the full analytics lifecycle in a production environment
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Education -->
+        <div class="reveal reveal-delay-1">
+          <div class="tl-col-head">
+            <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+            Education
+          </div>
+          <div class="timeline">
+            <div class="tl-item">
+              <div class="tl-date">2022 – 2026 &middot; B.Tech in Information Technology</div>
+              <div class="tl-role">Bachelor of Technology</div>
+              <div class="tl-org">C Abdul Hakeem College of Engineering &amp; Technology</div>
+              <div class="tl-points">
+                <div class="tl-point">
+                  <i class="fa fa-circle" aria-hidden="true"></i>
+                  Specialization in Information Technology with a CGPA of 8.0
+                </div>
+                <div class="tl-point">
+                  <i class="fa fa-circle" aria-hidden="true"></i>
+                  Core focus on databases, data structures, software systems, and programming fundamentals
+                </div>
+                <div class="tl-point">
+                  <i class="fa fa-circle" aria-hidden="true"></i>
+                  Applied academic knowledge through real analytics projects in Power BI and Tableau
+                </div>
+                <div class="tl-point">
+                  <i class="fa fa-circle" aria-hidden="true"></i>
+                  Developed data-driven problem-solving skills through coursework and independent projects
+                </div>
+              </div>
+              <div class="edu-cgpa">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                CGPA 8.0 / 10.0
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ════════════════════════════════════════
+       DASHBOARD SHOWCASE
+  ════════════════════════════════════════ -->
+  <section id="showcase" class="bg-tinted">
+    <div class="container">
+
+      <div class="reveal">
+        <p class="section-eyebrow">Visual Portfolio</p>
+        <h2 class="section-title">Dashboard <em>Showcase</em></h2>
+        <div class="section-rule"></div>
+      </div>
+
+      <div class="showcase-grid">
+
+        <div class="showcase-card reveal">
+          <div class="showcase-preview img-preview">
+            <img src="assets/images/blinkit.png" alt="Blinkit Dashboard">
+            <span class="showcase-chip">Power BI · Sales</span>
+          </div>
+          <div class="showcase-body">
+            <div class="showcase-title">Blinkit Sales Dashboard</div>
+            <div class="showcase-desc">Revenue, profit margin, and product trend analysis with city and category-level
+              drill-down filters built in Power BI with DAX.</div>
+          </div>
+        </div>
+
+        <div class="showcase-card reveal reveal-delay-1">
+          <div class="showcase-preview img-preview">
+            <img src="assets/images/hr.png" alt="HR Dashboard">
+            <span class="showcase-chip">Tableau · HR</span>
+          </div>
+          <div class="showcase-body">
+            <div class="showcase-title">HR Analytics Dashboard</div>
+            <div class="showcase-desc">In-depth workforce analysis tracking a 16.12% attrition rate across 1,470
+              employees. Features demographic breakdowns, job satisfaction matrices, and department-level segmentation.
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ════════════════════════════════════════
+       CONTACT
+  ════════════════════════════════════════ -->
+  <section id="contact">
+    <div class="container">
+
+      <div class="reveal">
+        <p class="section-eyebrow">Get In Touch</p>
+        <h2 class="section-title">Let's <em>Connect</em></h2>
+        <div class="section-rule"></div>
+      </div>
+
+      <div class="contact-grid">
+
+        <!-- Left -->
+        <div class="reveal">
+          <h3 class="contact-heading">
+            Open to Full-Time Roles &amp;<br><em>Analytics Projects</em>
+          </h3>
+          <p class="contact-subtext">
+            I am actively seeking Data Analyst positions where I can apply my expertise in Power BI, Tableau, SQL, and
+            Python to generate actionable insights that support strategic business decisions. Reach out through any of
+            the channels below.
+          </p>
+
+          <div class="contact-links-list">
+            <a href="mailto:muhtashimiqbal005@gmail.com" class="contact-link">
+              <div class="contact-link-icon"><i class="fa fa-envelope" aria-hidden="true"></i></div>
+              <div>
+                <div class="contact-link-label">Email</div>
+                <div class="contact-link-value">muhtashimiqbal005@gmail.com</div>
+              </div>
+            </a>
+            <a href="tel:+919487890945" class="contact-link">
+              <div class="contact-link-icon"><i class="fa fa-phone" aria-hidden="true"></i></div>
+              <div>
+                <div class="contact-link-label">Phone</div>
+                <div class="contact-link-value">+91-9487890945</div>
+              </div>
+            </a>
+            <a href="https://www.linkedin.com/in/muhtashim-data-analyst" class="contact-link" target="_blank"
+              rel="noopener noreferrer">
+              <div class="contact-link-icon"><i class="fab fa-linkedin-in" aria-hidden="true"></i></div>
+              <div>
+                <div class="contact-link-label">LinkedIn</div>
+                <div class="contact-link-value">Linkdin Profile</div>
+              </div>
+            </a>
+            <a href="https://github.com/Muhtashim-iqbal" class="contact-link" target="_blank" rel="noopener noreferrer">
+              <div class="contact-link-icon"><i class="fab fa-github" aria-hidden="true"></i></div>
+              <div>
+                <div class="contact-link-label">GitHub</div>
+                <div class="contact-link-value">GitHub Profile</div>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <!-- Right: Resume CTA card -->
+        <div class="contact-resume-card reveal reveal-delay-2">
+          <div class="resume-card-icon">
+            <i class="fa fa-file-alt" aria-hidden="true"></i>
+          </div>
+          <h4 class="resume-card-title">Download My<br>Full Resume</h4>
+          <p class="resume-card-desc">
+            Access my complete professional profile — projects, technical skills, experience, and education — in a
+            single document formatted for hiring managers and recruiters.
+          </p>
+          <a href="assets/resume/resume_3.pdf" class="btn btn-primary" target="_blank"
+            download="Muhtashim_Iqbal_Resume.pdf">
+            <i class="fa fa-download" aria-hidden="true"></i>
+            Download CV (PDF)
+          </a>
+          <p class="resume-card-meta">PDF Format &middot; Last Updated 2026</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ════════════════════════════════════════
+       FOOTER
+  ════════════════════════════════════════ -->
+  <footer id="footer" role="contentinfo">
+    <div class="footer-brand">
+      Muhtashim<span>.</span>
+    </div>
+    <p class="footer-copy">
+      &copy; <span id="footer-year">2026</span> Muhtashim Iqbal Ahmed K &middot; Data Analyst &middot; Ambur, Tamil Nadu
+    </p>
+    <div class="footer-socials">
+      <a href="mailto:muhtashimiqbal005@gmail.com" class="footer-social" aria-label="Email">
+        <i class="fa fa-envelope" aria-hidden="true"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/muhtashim-data-analyst" class="footer-social" aria-label="LinkedIn"
+        target="_blank" rel="noopener noreferrer">
+        <i class="fab fa-linkedin-in" aria-hidden="true"></i>
+      </a>
+      <a href="https://github.com/Muhtashim-iqbal" class="footer-social" aria-label="GitHub" target="_blank"
+        rel="noopener noreferrer">
+        <i class="fab fa-github" aria-hidden="true"></i>
+      </a>
+    </div>
+  </footer>
+
+
+  <!-- JavaScript -->
+  <script src="main.js"></script>
+
+</body>
+
+</html>
